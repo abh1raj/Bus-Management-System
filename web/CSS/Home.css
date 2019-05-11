@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+
+body
+{
+	background: url('../Images/BusNo.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+i{
+    color: white;
+}
+
+
+

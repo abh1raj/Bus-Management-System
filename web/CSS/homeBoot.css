@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+
+body{
+    background-image: url(../Images/Student.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Abel', sans-serif;
+    background-attachment: fixed;
+}

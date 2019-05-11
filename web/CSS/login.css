@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Michroma');
+@import url('https://fonts.googleapis.com/css?family=Overlock');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url('../Images/Home.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.main
+{
+    margin: 50px auto;
+    width: 350px;
+    background-color: black;
+    opacity: 0.8;
+    box-shadow: 1px 1px 25px black;
+    position: relative;
+    animation: 2.5s fadeIn;
+}
+
+
+.container
+{
+    padding: 8px 0;
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+
+.login
+{
+    height: 80px;
+    width: 100%;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    padding: 2px;
+
+}
+
+form
+{
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    text-align: center;
+		
+}
+
+select{
+    font-family: 'Abel', sans-serif;
+    background-color:white;
+    border: none;
+    font-size: 20px;
+    color:black;
+}
+
+
+input
+{
+    color: black;
+    font-family: 'Abel', sans-serif;
+    padding: 3px 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+p
+{
+    padding: 9px;
+}
+
+.anc
+{
+    text-decoration: none;
+    font-family: 'Overlock', cursive;
+    font-size: 20px;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.anc:hover{
+    color:gold;
+}
+
+.btn
+{
+    border: none;
+    width: 30%;
+    height: 30px;
+    color: black;
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    background-color:gold;
+    transition-duration: 0.3s;
+}
+
+.btn:hover
+{
+    background-color:black;
+    color:white;
+    font-size: 20px;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+

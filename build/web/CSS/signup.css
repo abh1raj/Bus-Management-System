@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Michroma');
+@import url('https://fonts.googleapis.com/css?family=Overlock');
+
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0;
+	background-color:black;
+	background-image: url('../Images/Home.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+form
+{
+	border-style: hidden;
+	font-family: 'Abel', sans-serif;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	
+}
+
+.main
+{
+	width: 350px;
+	margin: 50px auto;
+	animation: 2.5s fadeIn;
+	background-color: rgba(0, 0, 0, 0.8);
+	align-items: center;
+}
+
+.container
+{
+	padding: 8px 0;
+	text-align: center;
+}
+
+.buttons
+{
+	padding: 8px 0;
+	width: 50%;
+	float: left;
+}
+
+
+
+input
+{
+	color: black;
+    font-family: 'Abel', sans-serif;
+    padding: 3px 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+p{
+        padding: 15px;
+ }
+
+
+.btn
+{
+	
+	width: 80%;
+	border: none;
+	background-color:gold;
+	font-size: 25px;
+	padding: 8px 16px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+
+
+@keyframes fadeIn {
+	0% {
+	  opacity:0;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+
+  
+
+.btn:hover{
+	background-color:black;
+	color: gold;
+	box-shadow: 0px 3px 8px black;
+}

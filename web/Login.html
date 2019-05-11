@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="CSS\login.css">
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="main">
+            <div class="login">User Login</div>
+            <form action="LogServlet" method="post" name = "myform" onsubmit="return validation()" >
+            <div class="container">
+                
+                    <p>Username:</p>
+                    <input type="text" placeholder="Username" name="uname" >
+                    <p>Password:</p>
+                    <input type="password" placeholder="Password" name="pass" >
+                    <p>Account Type:</p>
+                    <select name="selects" >
+                        <option value="Student">Student/Faculty</option>
+                        <option value="Staff">Staff</option>
+                        <option value="Admin">Admin</option>
+                    </select>        
+            </div>
+                
+            <div class="container">
+                <button class="btn" type="submit">Login</button>
+            </div>
+                
+            </form> 
+            
+            <div class="container">
+                <a class="anc" href="">Forgot Password?</a>
+            </div>
+            <div class="container">
+                <a class="anc" href="Signup.html">New member? Signup!</a>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <script>
+        	 function validation()
+	        
+                {
+	        	var v1=document.forms["myform"]["uname"].value;
+	            var v2=document.forms["myform"]["pass"].value;
+	            var flag=true;
+	            if(v1 == "")
+	                {
+	                	alert("Name is required.");
+	                    flag=false;
+	          		}
+	            if(v2 == "")
+	                {
+	                    alert("Password is required.")
+	                    flag=false;
+	                }
+
+                return flag;
+	        }
+        </script>
+    </body>
+</html>
